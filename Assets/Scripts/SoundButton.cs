@@ -21,7 +21,7 @@ namespace CEGI.Biblioteca
 
 
         /// <summary>
-        /// Troca a situação do som apra ligado ou desligado
+        /// Troca a situação do som para ligado ou desligado
         /// </summary>
         public void SwitchSound()
         {

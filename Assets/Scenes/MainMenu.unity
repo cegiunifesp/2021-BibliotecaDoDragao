@@ -610,6 +610,42 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &50516404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 50516405}
+  m_Layer: 5
+  m_Name: WebGLQuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &50516405
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50516404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 486739069}
+  m_Father: {fileID: 1058980602}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &122893761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,13 +2404,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486739068}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 856603287}
-  m_Father: {fileID: 1058980602}
-  m_RootOrder: 4
+  m_Father: {fileID: 50516405}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2633,11 +2669,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564000266}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1058980602}
+  m_Father: {fileID: 656555113}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3112,6 +3148,45 @@ RectTransform:
   m_AnchoredPosition: {x: -386.6431, y: -7.922008}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &656555112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 656555113}
+  m_Layer: 5
+  m_Name: DesktopQuit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &656555113
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656555112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 564000267}
+  - {fileID: 1006066293}
+  - {fileID: 701749807}
+  - {fileID: 1851945291}
+  m_Father: {fileID: 1058980602}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &699186857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,7 +3333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &701749807
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3270,7 +3345,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1058980602}
+  m_Father: {fileID: 656555113}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4478,7 +4553,7 @@ GameObject:
   - component: {fileID: 856603288}
   - component: {fileID: 856603291}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5247,7 +5322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1006066293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5255,11 +5330,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006066292}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1058980602}
+  m_Father: {fileID: 656555113}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5502,11 +5577,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 564000267}
-  - {fileID: 1006066293}
-  - {fileID: 701749807}
-  - {fileID: 1851945291}
-  - {fileID: 486739069}
+  - {fileID: 656555113}
+  - {fileID: 50516405}
   m_Father: {fileID: 412002592}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5527,6 +5599,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970ff2ad62979924b8e721b80407d226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webGLObject: {fileID: 0}
+  desktopAndroidObject: {fileID: 0}
 --- !u!1 &1072067708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5968,6 +6042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970ff2ad62979924b8e721b80407d226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webGLObject: {fileID: 50516404}
+  desktopAndroidObject: {fileID: 656555112}
 --- !u!1 &1247885529
 GameObject:
   m_ObjectHideFlags: 0
@@ -6222,6 +6298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970ff2ad62979924b8e721b80407d226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webGLObject: {fileID: 0}
+  desktopAndroidObject: {fileID: 0}
 --- !u!114 &1310438134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8116,6 +8194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970ff2ad62979924b8e721b80407d226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  webGLObject: {fileID: 0}
+  desktopAndroidObject: {fileID: 0}
 --- !u!1 &1647375094
 GameObject:
   m_ObjectHideFlags: 0
@@ -9590,7 +9670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1851945291
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9602,7 +9682,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1058980602}
+  m_Father: {fileID: 656555113}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
